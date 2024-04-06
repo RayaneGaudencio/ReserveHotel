@@ -71,6 +71,32 @@
                     android:layout_marginTop="4dp"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="5dp"
+            android:background="@color/primary">
+
+            <ImageView
+                android:id="@+id/iconHome"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_toStartOf="@+id/iconReserva"
+                android:src="@drawable/icon_home" />
+
+            <ImageView
+                android:id="@+id/iconReserva"
+                android:layout_width="212dp"
+                android:layout_height="49dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/icon_reserva" />
+
+        </RelativeLayout>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

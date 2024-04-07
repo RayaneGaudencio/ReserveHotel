@@ -106,6 +106,9 @@
                 android:layout_width="212dp"
                 android:layout_height="49dp"
                 android:layout_alignParentRight="true"
+                android:clickable="true"
+                android:contextClickable="false"
+                android:onClick="telaReserva"
                 android:src="@drawable/icon_reserva" />
 
         </RelativeLayout>

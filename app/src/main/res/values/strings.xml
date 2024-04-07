@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Reserve Hotel</string>
+    <string name="suite_premium_subtitle">
+        Bem-vindo à nossa Suíte Premium, onde o luxo e o conforto se encontram para proporcionar uma experiência inesquecível durante a sua estadia. Esta suíte exclusiva é projetada para oferecer o máximo em comodidade, estilo e conveniência para os nossos hóspedes mais exigentes.
+    </string>
+    <string name="suite_premium_subtitle2">
+         Características do Quarto:
+    </string>
+    <string name="suite_premium_descricao">
+        - Espaço generoso com design elegante e contemporâneo.\n
+        - Cama king-size luxuosa com lençóis macios e travesseiros de alta qualidade para uma noite de sono revigorante.\n
+        - Área de estar confortável com sofá e poltronas de design para relaxar e descontrair.\n
+        - Banheiro privativo espaçoso, equipado com banheira de hidromassagem e chuveiro de chuva, proporcionando um ambiente de spa relaxante.\n
+        - Varanda privativa com vista panorâmica da cidade, permitindo que você desfrute da beleza circundante e respire o ar fresco da manhã.
+    </string>
 </resources>

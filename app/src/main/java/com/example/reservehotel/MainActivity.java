@@ -10,6 +10,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.example.reservehotel.quarto.InfoQuartoActivity;
 import com.example.reservehotel.reserva.ReservaActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void telaReserva(View view) {
         Intent in = new Intent(MainActivity.this, ReservaActivity.class);
+        startActivity(in);
+    }
+
+    public void telaInfoQuarto(View view) {
+        Intent in = new Intent(MainActivity.this, InfoQuartoActivity.class);
         startActivity(in);
     }
 }

@@ -24,7 +24,9 @@
                 android:layout_height="48dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
-
+                android:clickable="true"
+                android:contextClickable="false"
+                android:onClick="telaPrincipal"
                 android:layout_toStartOf="@+id/iconReserva"
                 android:src="@drawable/icon_home" />
 
